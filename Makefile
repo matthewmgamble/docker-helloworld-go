@@ -12,4 +12,4 @@ docker-run:
 	docker run -it -p 8080:80 mgambleegate/helloworld-go
 
 docker-push:
-	docker push mgambleegateh/helloworld-go
+	docker push mgambleegate/helloworld-go

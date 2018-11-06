@@ -12,7 +12,7 @@ const PORT_DEFAULT = "8080"
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprint(w, "Hello world!")
+		fmt.Fprint(w, "Hello ISP Summit!")
 	})
 
 	port := os.Getenv(PORT_ENV_VAR)
